@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nombre": "Miguel Angel",
+      "apellido": "Perez Hernandez",
+      "email": "sincere@april.biz",
+      "password": "Asso233#",
+      "isAdmin": "user"
+    },
+    {
+      "id": "2",
+      "nombre": "Ana Maria",
+      "apellido": "Gomez Lopez",
+      "email": "ana.maria@example.com",
+      "password": "Passw0rd!",
+      "isAdmin": "user"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos",
+      "apellido": "Ramirez Torres",
+      "email": "carlos.ramirez@example.com",
+      "password": "SecurePwd123#",
+      "isAdmin": "admin"
+    },
+    {
+      "id": "4",
+      "nombre": "Laura",
+      "apellido": "Fernandez Rodriguez",
+      "email": "laura.fernandez@example.com",
+      "password": "MySecretPass1!",
+      "isAdmin": "admin"
+    },
+    {
+      "id": "5",
+      "nombre": "Alejandro",
+      "apellido": "Gutierrez Jimenez",
+      "email": "alejandro.gutierrez@example.com",
+      "password": "Alej0123#",
+      "isAdmin": "admin"
+    },
+    {
+      "id": "6",
+      "nombre": "Isabel",
+      "apellido": "Martinez Garcia",
+      "email": "isabel.martinez@example.com",
+      "password": "P@ssw0rd",
+      "isAdmin": "user"
+    },
+    {
+      "id": "7",
+      "nombre": "Sergio",
+      "apellido": "Lopez Vargas",
+      "email": "sergio.lopez@example.com",
+      "password": "SergioPwd123",
+      "isAdmin": "user"
+    },
+    {
+      "id": "8",
+      "nombre": "Carmen",
+      "apellido": "Perez Castro",
+      "email": "carmen.perez@example.com",
+      "password": "CarmenPass#",
+      "isAdmin": "admin"
+    },
+    {
+      "id": "9",
+      "nombre": "Daniel",
+      "apellido": "Ruiz Sanchez",
+      "email": "daniel.ruiz@example.com",
+      "password": "Daniel1234!",
+      "isAdmin": "user"
+    },
+    {
+      "id": "10",
+      "nombre": "Lucia",
+      "apellido": "Hernandez Ruiz",
+      "email": "lucia.hernandez@example.com",
+      "password": "LuciaPwd",
+      "isAdmin": "user"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "titulo": "titulo 1",
+      "descripcion": "descripción",
+      "icono": []
+    },
+    {
+      "id": "2",
+      "titulo": "titulo 2",
+      "descripcion": "descripción",
+      "icono": []
+    },
+    {
+      "id": "3",
+      "titulo": "titulo 3",
+      "descripcion": "descripción",
+      "icono": []
+    },
+    {
+      "id": "ce5c",
+      "titulo": "categoria 4",
+      "descripcion": "categoria 4",
+      "icono": "icono"
+    }
+  ]
+}

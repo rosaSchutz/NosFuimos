@@ -1,0 +1,134 @@
+.containerCard {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    /* 16px */
+    max-width: 472px;
+    margin: auto;
+}
+
+/*Estilo de la imagen de la tarjeta*/
+.containerImage {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    height: 65%;
+    border-top-left-radius: 1rem;
+    /* 16px */
+    border-top-right-radius: 1rem;
+    /* 16px */
+}
+
+@media (min-width: 640px) {
+    .containerImage {
+        height: 75%;
+    }
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 1rem;
+    /* 16px */
+    border-top-right-radius: 1rem;
+    /* 16px */
+    aspect-ratio: 800/533;
+}
+
+/*Estilos de los textos de la tarjeta*/
+.containerText {
+    padding: 20px;
+}
+
+@media (max-width: 639px) {
+    .containerText {
+        padding: 10px;
+    }
+}
+
+.title {
+    font-weight: var(--font-weight-semibold);
+    color: #C15205;
+    text-wrap: pretty;
+    font-size: 1.5rem;
+    /* 24px */
+    line-height: 2rem;
+    /* 32px */
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+@media (max-width: 639px) {
+    .title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: var(--font-size-lg);
+        line-height: var(--line-height-lg);
+    }
+}
+
+.detalle {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    font-weight: var(--font-weight-light);
+    color: var(--text-color-black);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.divDetalle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 639px) {
+    .divDetalle {
+        flex-direction: column;
+        gap: 1.25rem;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+}
+
+.detallePersona {
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    font-weight: var(--font-weight-light);
+    color: var(--text-color-black);
+    text-align: left;
+}
+
+.detallePrecio {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-color-black);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+
+@media (max-width: 639px) {
+    .detallePrecio {
+        font-size: var(--font-size-sm);
+        line-height: var(--line-height-sm);
+    }
+}
+
+@media (max-width: 639px) {
+    .detallePersona {
+        font-size: var(--font-size-sm);
+        line-height: var(--line-height-sm);
+    }
+}

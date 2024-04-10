@@ -1,0 +1,43 @@
+/*Estilos del texto e imagen de la categoria*/
+.carouselItem__categoria {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    max-width: 100%;
+    gap: 10px;
+    align-items: center;
+}
+
+.category__buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: var(--button-primary-background);
+    border: var(--button-primary-border);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    font-weight: var(--font-weight-light);
+    color: #005B8D;
+    border-radius: 0.5rem;
+    /* 8px */
+    padding: var(--button-primary-padding);
+    text-decoration: none;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    flex: none;
+}
+
+.category__buttons:hover {
+    background-color: #005B8D;
+    color: white;
+}
+
+.carouselItem__texto {
+    width: 100%;
+    text-wrap: nowrap;
+    text-transform: capitalize;
+}
+
+.selected {
+    border: 2px solid #005B8D;
+}
